@@ -1,5 +1,9 @@
 
 
+notice("LOADED puppet-celery")
+notify {"LOADED puppet-celery":}
+
+
 class celery::rabbitmq($user="some_user",
                        $vhost="some_vhost",
                        $password="CHANGEME") {
